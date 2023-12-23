@@ -1,0 +1,158 @@
+
+
+============================== 2022-07-21 00:19:04.327114 | 87c361a6-5f96-41be-8d53-8286d25db74c ==============================
+00:19:04.327133 [info ] [MainThread]: Running with dbt=1.1.1
+00:19:04.328303 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/abel-ubuntu/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'data-warehouse-dbt', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+00:19:04.328712 [debug] [MainThread]: Tracking: tracking
+00:19:04.334688 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff58cbda550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff58cbda3a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff58cbda460>]}
+00:19:04.335909 [info ] [MainThread]: Creating dbt configuration folder at /home/abel-ubuntu/.dbt
+00:20:32.690169 [debug] [MainThread]: Starter project path: /home/abel-ubuntu/workspace/data-warehouse-dbt/dbt-env/lib/python3.9/site-packages/dbt/include/starter_project
+00:26:50.462502 [info ] [MainThread]: Profile dbt written to /home/abel-ubuntu/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+00:26:50.463226 [info ] [MainThread]: 
+Your new dbt project "dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+00:26:50.463887 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff58b3a90a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff58b3b9040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff58b3b90a0>]}
+
+
+============================== 2022-07-21 00:52:42.795297 | d7de8a09-ef3e-48b4-88f7-81cc34d235a8 ==============================
+00:52:42.795318 [info ] [MainThread]: Running with dbt=1.1.1
+00:52:42.806997 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/abel-ubuntu/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'ola', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+00:52:42.807329 [debug] [MainThread]: Tracking: tracking
+00:52:42.820786 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa1d9861cd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa1d9861c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa1d9861d00>]}
+00:52:42.823804 [debug] [MainThread]: Starter project path: /home/abel-ubuntu/workspace/data-warehouse-dbt/dbt-env/lib/python3.9/site-packages/dbt/include/starter_project
+
+
+============================== 2022-07-21 20:25:51.613631 | da9c1ac9-2448-4576-9c04-7973c41b24fd ==============================
+20:25:51.613662 [info ] [MainThread]: Running with dbt=1.1.1
+20:25:51.628515 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/abel-ubuntu/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+20:25:51.628876 [debug] [MainThread]: Tracking: tracking
+20:25:51.662809 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f35a9ae9dc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f35a9ae9c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f35a9ae9d00>]}
+20:25:52.996832 [debug] [MainThread]: Executing "git --help"
+20:25:53.002978 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+20:25:53.004012 [debug] [MainThread]: STDERR: "b''"
+20:25:53.028792 [debug] [MainThread]: Acquiring new postgres connection "debug"
+20:25:53.029814 [debug] [MainThread]: Using postgres connection "debug"
+20:25:53.030303 [debug] [MainThread]: On debug: select 1 as id
+20:25:53.030813 [debug] [MainThread]: Opening a new connection, currently in state init
+20:25:54.383339 [debug] [MainThread]: SQL status: SELECT 1 in 1.35 seconds
+20:25:54.385271 [debug] [MainThread]: On debug: Close
+20:25:54.386096 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f35a825ca60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f35a825c760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f35a825cfa0>]}
+20:26:02.729034 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-07-21 21:39:04.414832 | c0b0c7a3-5315-4d74-a80e-b9dd0d2a5566 ==============================
+21:39:04.414848 [info ] [MainThread]: Running with dbt=1.1.1
+21:39:04.441510 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/abel-ubuntu/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'dbt', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+21:39:04.441834 [debug] [MainThread]: Tracking: tracking
+21:39:04.470231 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c099f0c70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c099f0100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c099f0bb0>]}
+21:39:04.472384 [info ] [MainThread]: A project called dbt already exists here.
+21:39:04.473305 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c099f0280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c099f0be0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c099f04c0>]}
+
+
+============================== 2022-07-21 21:48:45.276285 | 9cfd4717-c25e-4490-81ab-92e713a3f6cc ==============================
+21:48:45.276301 [info ] [MainThread]: Running with dbt=1.1.1
+21:48:45.290745 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/abel-ubuntu/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'data-warehouse-dbt', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+21:48:45.291117 [debug] [MainThread]: Tracking: tracking
+21:48:45.374667 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f060224dca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f060224d130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f060224dbe0>]}
+21:49:08.903387 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f060224d160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f060224dca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f060224d2e0>]}
+
+
+============================== 2022-07-21 21:49:46.705485 | c935666e-0c4d-4636-a3f8-c3470e7ede05 ==============================
+21:49:46.705500 [info ] [MainThread]: Running with dbt=1.1.1
+21:49:46.706131 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/abel-ubuntu/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'data_warehouse', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+21:49:46.706439 [debug] [MainThread]: Tracking: tracking
+21:49:46.711212 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4534b11c70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4534b11100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4534b11bb0>]}
+21:49:46.713046 [debug] [MainThread]: Starter project path: /home/abel-ubuntu/workspace/data-warehouse-dbt/dbt-env/lib/python3.9/site-packages/dbt/include/starter_project
+21:49:59.768288 [info ] [MainThread]: 
+Your new dbt project "data_warehouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+21:49:59.769087 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4538404130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f45384043a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4534b114c0>]}
+
+
+============================== 2022-07-21 22:04:16.208594 | 9f507202-ae1b-4c49-90cb-f01b84782dd9 ==============================
+22:04:16.208610 [info ] [MainThread]: Running with dbt=1.1.1
+22:04:16.209317 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/abel-ubuntu/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+22:04:16.209625 [debug] [MainThread]: Tracking: tracking
+22:04:16.215011 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f50254a3d00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f50254a30d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f50254a3100>]}
+22:04:16.297684 [debug] [MainThread]: Executing "git --help"
+22:04:16.326780 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+22:04:16.327447 [debug] [MainThread]: STDERR: "b''"
+22:04:16.349395 [debug] [MainThread]: Acquiring new postgres connection "debug"
+22:04:16.350563 [debug] [MainThread]: Using postgres connection "debug"
+22:04:16.350950 [debug] [MainThread]: On debug: select 1 as id
+22:04:16.351279 [debug] [MainThread]: Opening a new connection, currently in state init
+22:04:16.528559 [debug] [MainThread]: SQL status: SELECT 1 in 0.18 seconds
+22:04:16.531161 [debug] [MainThread]: On debug: Close
+22:04:16.532318 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5023c2e280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5023c2e130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5023c2e4f0>]}
+22:04:18.239027 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-07-24 20:34:14.920029 | f2e6b911-ce31-4f78-9f5a-cb879035f320 ==============================
+20:34:14.920046 [info ] [MainThread]: Running with dbt=1.1.1
+20:34:14.927030 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/abel-ubuntu/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+20:34:14.927371 [debug] [MainThread]: Tracking: tracking
+20:34:14.935712 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8aef83ccd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8aef83cb50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8aef83cc40>]}
+20:34:16.542086 [debug] [MainThread]: Executing "git --help"
+20:34:16.549010 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+20:34:16.549767 [debug] [MainThread]: STDERR: "b''"
+20:34:16.593035 [debug] [MainThread]: Acquiring new postgres connection "debug"
+20:34:16.594776 [debug] [MainThread]: Using postgres connection "debug"
+20:34:16.595563 [debug] [MainThread]: On debug: select 1 as id
+20:34:16.596233 [debug] [MainThread]: Opening a new connection, currently in state init
+20:34:17.055241 [debug] [MainThread]: SQL status: SELECT 1 in 0.46 seconds
+20:34:17.057548 [debug] [MainThread]: On debug: Close
+20:34:17.058405 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8aedfb9c40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8aedfc7310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8aedfc7c40>]}
+20:34:19.272969 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-07-31 20:31:01.654251 | 49124bcd-c82d-4a71-8f01-28bb03387056 ==============================
+[0m20:31:01.654267 [info ] [MainThread]: Running with dbt=1.2.0
+[0m20:31:01.688470 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/abel/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'post', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m20:31:01.688782 [debug] [MainThread]: Tracking: tracking
+[0m20:31:01.774099 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efcbe91e400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efcbe91e4f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efcbe91e490>]}
+[0m20:31:01.775500 [info ] [MainThread]: Creating dbt configuration folder at /home/abel/.dbt
+[0m20:31:01.825507 [debug] [MainThread]: Starter project path: /home/abel/workspace/data-warehouse-dbt/dbt-env/lib/python3.9/site-packages/dbt/include/starter_project
+[0m20:31:18.653028 [info ] [MainThread]: Profile post written to /home/abel/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m20:31:18.653716 [info ] [MainThread]: 
+Your new dbt project "post" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:31:18.654358 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efcbd0f7460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efcbd1570d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efcbd166070>]}
